@@ -3,7 +3,6 @@ requests
 numpy
 newspaper3k
 sklearn
-json
 serpapi
 langchain
 mailgun
