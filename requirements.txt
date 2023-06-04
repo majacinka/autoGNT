@@ -2,6 +2,6 @@ streamlit
 requests
 numpy
 newspaper3k
-sklearn
+https://scikit-learn.org/
 langchain
 mailgun
