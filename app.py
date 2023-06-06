@@ -192,7 +192,8 @@ def main():
 
         # Send the email
         send_email_mailgun(
-            subject="🤖🤯 This week news about AI", 
+            subject="🤖🤯 This week news about AI", #you can change "AI" to accept the user query variable instead of hardcoded word, but I prefer it like this 
+                                                   #because my keywords sometimes get weird and long
             body=email_body, 
             to=recipient_mail, 
             from_email=sending_mail, 
