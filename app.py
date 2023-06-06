@@ -192,7 +192,7 @@ def main():
 
         # Send the email
         send_email_mailgun(
-            subject="🤖 This week news about {user_query}", 
+            subject="🤖🤯 This week news about AI", 
             body=email_body, 
             to=recipient_mail, 
             from_email=sending_mail, 
